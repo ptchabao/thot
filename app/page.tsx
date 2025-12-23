@@ -186,7 +186,7 @@ export default function Home() {
         [file.path]: { loaded: 0, total: totalBytes, percentage: 0 }
       }));
 
-      const chunks: Uint8Array[] = [];
+      const chunks: BlobPart[] = [];
       let received = 0;
 
       while (true) {
