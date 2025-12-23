@@ -1,6 +1,6 @@
 import { Client } from 'ssh2';
 
-interface SSHConfig {
+export interface SSHConfig {
   host: string;
   username: string;
   password: string;
