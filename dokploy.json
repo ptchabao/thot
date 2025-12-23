@@ -1,0 +1,15 @@
+{
+  "build": {
+    "command": "npm run build",
+    "directory": "."
+  },
+  "start": {
+    "command": "npm start",
+    "directory": "."
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "NEXT_TELEMETRY_DISABLED": "1"
+  }
+}
+
